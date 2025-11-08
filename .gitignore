@@ -1,0 +1,90 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test / coverage
+coverage/
+.nyc_output/
+jest*.json
+
+# Build output
+dist/
+build/
+coverage/
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.local.env
+
+# Database files (local DBs)
+*.sqlite
+*.sqlite3
+db/*.sqlite
+db/*.sqlite3
+*.db
+*.db-journal
+lowdb.json
+
+# Package managers
+.pnp.*
+.cache/
+.eslintcache
+
+# Security / keys / credentials
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+ssh/
+*.p12
+
+# OS generated swap files, etc.
+*.swp
+*~
+.project
+.classpath
+.settings/
+
+# Misc
+.vagrant/
+.idea/
+*.iml
